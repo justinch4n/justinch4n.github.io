@@ -81,7 +81,7 @@
   }
   
   .logo {
-    
+    margin-left: 3%;
     font-family: "Titillium Web", sans-serif;
   }
   
@@ -244,12 +244,14 @@
   input[type="email"],
   textarea {
     width: 100%;
+    height: 100px;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     resize: none;
+    font-family: "Titillium Web", sans-serif;
   }
   
   /* Add some spacing to the form */
