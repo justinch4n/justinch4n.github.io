@@ -31,8 +31,8 @@
     top: 0;
     width: 100%;
     height: 7%;
-    z-index: 10;
-  
+    z-index: 100;
+    background-color: var(--cg-bone);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -270,6 +270,7 @@
     height: 2.5rem;
     font-family: "Titillium Web", sans-serif;
     color: var(--cg-black);
+    text-align: center;
     /* Debug border */
     /* border: solid blue; */
 
