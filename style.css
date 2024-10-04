@@ -88,7 +88,8 @@
   /* .logo a:hover {
     text-decoration: None;
   } */
-  
+
+
   main {
     padding: 0 20px 40px 20px;
     display: flex;
@@ -104,6 +105,20 @@
     font-family: "Titillium Web", sans-serif;
   }
   
+  /*
+  CSS for blog
+  */
+  .video-box{
+    width: 560px;
+    border: 20px;
+    border-color: blue;
+  }
+
+  .yt-video{
+    width: 560px;
+    height: 315px;
+  }
+
   /* CSS for portfolio grid */
   
   .project {
@@ -210,6 +225,7 @@
   
   /* CSS for resume page */
   
+
   .button {
     background-color: var(--cg-black);
     border: none;
@@ -226,10 +242,32 @@
   .button:hover {
     background-color: var(--cg-blue);
   }
-  
-  .resume h2 {
+  .resume {
+    width: 90%;
+    /* border: 2px solid var(--cg-blue); */
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--cg-white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume h2 {
     font-family: "Titillium Web", sans-serif;
-  }
+    text-align: left;
+    color: var(--cg-black);
+    border-bottom: 1px solid var(--cg-grey);
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.job-info {
+  font-style: italic;
+  margin-bottom: 10px;
+}
   
   /* CSS for contact form */
   
