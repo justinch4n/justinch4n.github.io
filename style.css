@@ -245,7 +245,6 @@
   .resume {
     width: 90%;
     max-width: 900px;
-    border: 2px solid var(--cg-blue);
     padding: 40px;
     margin: 20px auto;
     background-color: var(--cg-white);
@@ -259,7 +258,7 @@
 }
 
 .resume-header h1 {
-    color: var(--cg-blue);
+    color: var(--cg-black);
     margin-bottom: 10px;
 }
 
@@ -268,7 +267,7 @@
 }
 
 .resume-section h2 {
-    color: var(--cg-blue);
+    color: var(--cg-black);
     border-bottom: 2px solid var(--cg-grey);
     padding-bottom: 10px;
     margin-bottom: 15px;
