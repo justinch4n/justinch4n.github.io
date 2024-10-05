@@ -119,76 +119,51 @@
     height: 315px;
   }
 
-  /* CSS for portfolio grid */
-  
   .project {
-    display: flex;
+    display: flex; /* Use flexbox to align image and description side by side */
     flex-direction: row;
-    max-width: 100%;
-    margin: 1em 0 2em 0;
-  
-    /* Debug border */
-    /* border: 2px solid blue; */
+    justify-content: space-between;
+    align-items: center; /* Vertically center the items */
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .item-link {
-    width: 70%;
-  
-    /* Debug border */
-    /* border: 2px solid red; */
-  }
-  
-  .project-image {
+  .project img {
+    flex-basis: 45%; /* Take up 45% of the available width */
+    height: auto;
+    border-radius: 10px;
     object-fit: cover;
-    width: 100%;
-    height: 500px;
-    flex-basis: 50px;
-    flex-grow: 2;
-  
-    /* Debug border */
-    /* border: 2px solid black; */
   }
   
   .project-details {
-    display: flex;
-    background-color: var(--cg-white);
-    width: 30%;
-    height: 500px;
-    flex-shrink: 1;
-    padding: 0 20px;
-    margin: 0px;
-    line-height: 1.5;
-    overflow: scroll;
-  
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  
-    /* Debug border */
-    /* border: 2px solid green; */
-  }
-  
-  .project-details a {
-    color: var(--cg-black);
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  
-  .project-details a:hover {
-    color: var(--cg-blue);
-    text-decoration: underline;
-  }
-  
-  .project-details {
-    font-weight: lighter;
+    flex-basis: 45%; /* Take up 45% of the available width */
+    padding-left: 20px; /* Add space between the image and details */
+    text-align: left;
   }
   
   .project-name {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   
+  .project-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .project-details a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .project-details a:hover {
+    text-decoration: underline;
+  }
   /* CSS for home page */
   
   .about {
