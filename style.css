@@ -288,7 +288,9 @@
 }
   
   /* CSS for contact form */
-  
+  .contact-text{
+    text-align: center;
+  }
   label {
     display: block;
     margin-bottom: 8px;
